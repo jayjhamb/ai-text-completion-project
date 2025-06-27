@@ -40,7 +40,7 @@ def generate_completion(prompt, temperature=0.7, max_tokens=150):
         return f"Error: {e}"
 
 def main():
-    print("🔮 Welcome to the AI Text Completion App (OpenAI GPT-3.5)")
+    print("Welcome to the AI Text Completion App (OpenAI GPT-3.5)")
     openai.api_key = load_api_key()
 
     while True:
@@ -52,7 +52,7 @@ def main():
         temperature, max_tokens = get_model_parameters()
         print("\nGenerating response...\n")
         output = generate_completion(prompt, temperature, max_tokens)
-        print(f"📝 Response:\n{output}\n")
+        print(f"Response:\n{output}\n")
 
 if __name__ == "__main__":
     main()
