@@ -6,7 +6,7 @@ Capstone Project
 ## Setup
 
 1. Clone the repository
-git clone https://github.com/yourusername/ai-text-completion-project.git
+git clone https://github.com/jayjhamb/ai-text-completion-project/tree/main
 cd ai-text-completion-project
 
 2. Install dependencies
